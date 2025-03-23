@@ -38,7 +38,7 @@ export default function RegisterComponent({ supabase }) {
     }
 
     return (
-        <div className={`w-full rounded-xl border border-base-300 p-7 bg-white`}>
+        <div className={`w-full rounded-xl border border-base-300 p-7 bg-base-100`}>
                 <div className={`w-full flex items-center justify-between gap-5`}>
                     <fieldset className="fieldset w-1/2">
                         <legend className="fieldset-legend">First Name</legend>

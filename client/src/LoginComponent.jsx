@@ -30,7 +30,7 @@ export default function LoginComponent({ supabase }) {
     }
 
     return (
-        <div className={`w-full h-fit rounded-xl border border-base-300 p-7 bg-white`}>
+        <div className={`w-full h-fit rounded-xl border border-base-300 p-7 bg-base-100`}>
             <fieldset className="fieldset w-full">
                 <legend className="fieldset-legend">Email</legend>
                 <input name="email" onChange={onChange} type="text" className="input w-full" placeholder="john_doe@example.com" />

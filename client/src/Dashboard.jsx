@@ -86,7 +86,7 @@ export default function Dashboard({ supabase }) {
     }
 
     return (
-        <div data-theme="green" className={`min-h-screen bg-base-200 flex flex-col items-center justify-center p-5`}>
+        <div className={`min-h-screen bg-base-200 flex flex-col items-center justify-center p-5`}>
             <p className={`text-4xl font-bold text-base-content`}>Feeling</p>
             <p className={`text-xl font-semibold my-3`}>Welcome, nikrp123</p>
             <div className={`rounded-xl w-11/12 grid grid-cols-12 gap-2`}>
