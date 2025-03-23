@@ -19,7 +19,7 @@ export default function Dashboard({ supabase }) {
 
     const messagesEndRef = useRef(null);
 
-    const genAi = new GoogleGenerativeAI("AIzaSyABZF7vDJtQ8rZFAo0FQ8lfZemJLA6jBKc");
+    const genAi = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI);
     const model = genAi.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const testPrompt = "This data is about a specific user in the last week. Generate a short 3 sentence summary about their moods over the week, specifically what types of things makes them not feel good. Phrase it like you are talking directly to the user.";
